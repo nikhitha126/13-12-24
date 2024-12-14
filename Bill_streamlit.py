@@ -7,5 +7,5 @@ b3 = st.number_input(" bill3")
 total=b1+b2+b3
 p=(total/sal)*100 if sal>0 else 0
 if st.button("Calculate"):
-st.write(f'total: {total}')
-st.write(f'Percentage:{p:.2f}'
+   st.write(f'total: {total}')
+   st.write(f'Percentage:{p:.2f}')
